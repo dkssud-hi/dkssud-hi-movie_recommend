@@ -59,7 +59,7 @@ function Nav() {
           marginTop: "5px",
           marginBottom: "9px",
         }}
-        to="/"
+        to={`${process.env.PUBLIC_URL}/`}
       >
         Y`flix
       </Link>
