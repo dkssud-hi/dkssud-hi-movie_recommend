@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dkssud-hi-movie_recommend/static/css/main.86bb1654.css",
+    "main.css": "/dkssud-hi-movie_recommend/static/css/main.ef14b3bf.css",
     "main.js": "/dkssud-hi-movie_recommend/static/js/main.60057d2d.js",
     "index.html": "/dkssud-hi-movie_recommend/index.html",
-    "main.86bb1654.css.map": "/dkssud-hi-movie_recommend/static/css/main.86bb1654.css.map",
+    "main.ef14b3bf.css.map": "/dkssud-hi-movie_recommend/static/css/main.ef14b3bf.css.map",
     "main.60057d2d.js.map": "/dkssud-hi-movie_recommend/static/js/main.60057d2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.86bb1654.css",
+    "static/css/main.ef14b3bf.css",
     "static/js/main.60057d2d.js"
   ]
 }
