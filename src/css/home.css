@@ -53,9 +53,10 @@
   position: absolute;
   right: 0;
   transition: all 1s (0.165, 0.84, 0.44, 1);
+  animation: door_animation 2s linear 1s infinite normal;
 }
 .icon_box:hover .close_door {
-  opacity: 0;
+  color: transparent;
 }
 .icon_box:hover .open_door {
   opacity: 1;
@@ -65,4 +66,16 @@
 }
 .icon_box:hover .before_information {
   opacity: 0;
+}
+
+@keyframes door_animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
