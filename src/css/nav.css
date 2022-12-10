@@ -1,0 +1,11 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 2;
+  box-sizing: border-box;
+  transition: 0.4s ease;
+}

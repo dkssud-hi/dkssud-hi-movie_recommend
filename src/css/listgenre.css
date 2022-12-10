@@ -1,0 +1,44 @@
+.genre_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.genre_list_title {
+  width: 230px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.genre_list_rating {
+  position: absolute;
+  top: 0;
+  color: aliceblue;
+  background-color: black;
+  width: 230px;
+  height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.genre_list :hover {
+  opacity: 0.5;
+}
+
+.genre_img {
+  border-style: hidden;
+}
+
+a {
+  color: darkslateblue;
+  font-size: large;
+  font-weight: bolder;
+}

@@ -1,0 +1,46 @@
+.back_ground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(50%);
+}
+
+.large_box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.detail_box {
+  display: grid;
+  grid-template-columns: 270px 400px 425px;
+}
+
+.point_show_item {
+  margin-top: 20px;
+}
+
+.Point_textbox {
+  padding: 20px;
+  width: 70%;
+  height: 100px;
+}
+
+.trailer_box {
+  padding-left: 20px;
+}
+
+.image_position {
+  margin-top: 20px;
+  width: 235px;
+  height: 350px;
+  object-fit: fill;
+}

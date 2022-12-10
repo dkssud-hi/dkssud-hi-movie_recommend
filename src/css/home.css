@@ -1,0 +1,68 @@
+.main {
+  height: 100%;
+  padding-top: 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie_box {
+  width: 500px;
+  height: 600px;
+}
+
+.detail_link {
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  z-index: 2;
+  opacity: 1;
+}
+
+.icon_box {
+  position: relative;
+  color: #e41e1b;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.icon_box div {
+  font-size: larger;
+  margin-right: 10px;
+  padding-bottom: 5px;
+}
+
+.before_information {
+  opacity: 1;
+  position: absolute;
+  left: -30px;
+  transition: all 1s ease-out;
+}
+.after_information {
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+.open_door {
+  opacity: 0;
+  transition: all 1s (0.165, 0.84, 0.44, 1);
+}
+
+.close_door {
+  position: absolute;
+  right: 0;
+  transition: all 1s (0.165, 0.84, 0.44, 1);
+}
+.icon_box:hover .close_door {
+  opacity: 0;
+}
+.icon_box:hover .open_door {
+  opacity: 1;
+}
+.icon_box:hover .after_information {
+  opacity: 1;
+}
+.icon_box:hover .before_information {
+  opacity: 0;
+}
